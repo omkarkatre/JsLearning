@@ -1,8 +1,10 @@
 function squareOfWordLength(name) {
     name.length;
+    console.log(`${name}`);
     console.log(`Length of string:${ name.length}`);
     var square=name.length* name.length;
     console.log(`Square of length:`,square);
+    console.log(`-------------------------------------`);
     
 }
 squareOfWordLength("JavaScript");
